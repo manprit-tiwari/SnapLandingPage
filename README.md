@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop-Preview](src/assets/design/desktop-preview.jpg)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/manprit-tiwari/SnapLandingPage)
+- Live Site URL: [Live](https://snap-landign-page.netlify.app/)
 
 ## My process
 
