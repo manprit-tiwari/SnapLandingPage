@@ -1,6 +1,8 @@
 # SnapLandingPage
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
+<br>
+This watch the project running [live](https://snap-landign-page.netlify.app/).
 
 ## Development server
 
