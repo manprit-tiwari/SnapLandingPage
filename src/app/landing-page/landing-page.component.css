@@ -14,10 +14,10 @@
     justify-content: space-around;
 }
 .left-side .title{
-    font-size: 5.3vw;
+    font-size: 4.6vw;
     font-weight: 700;
     color: hsl(0,0%,8%);
-    /* margin-top: 115px; */
+    margin-top: 50px;
 }
 .left-side .content{
     font-size: 18px;
@@ -28,9 +28,14 @@
     font-size: 18px;
     background-color: hsl(0,0%,8%);
     color: white;
-    border: none;
+    border: 2px solid hsl(0,0%,8%);
     padding: 10px 20px;
     border-radius: 0.5rem;
+    transition: all .1s ease-in-out;
+}
+.left-side .btn .read-more-btn:hover,.left-side .btn .read-more-btn:focus{
+    background-color: hsl(0,0%,98%);
+    color: hsl(0,0%,8%);
 }
 .left-side .client{
     display: flex;

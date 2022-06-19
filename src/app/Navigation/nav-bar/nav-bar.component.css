@@ -27,6 +27,17 @@ li{
     text-align: center;
     line-height: inherit;
     padding: auto 10px;
+    cursor: pointer;
+}
+li:hover, li:focus, li:active{
+    color: hsl(0,0%,8%);
+}
+li img{
+    transition: transform .3s ease-in-out;
+}
+li:hover img,li:focus img, li:active img{
+    transform: rotate(180deg);
+
 }
 .login-container{
     display: flex;
@@ -38,14 +49,24 @@ li{
 .login{
     margin-top: auto;
     margin-bottom: auto;
+    cursor: pointer;
+}
+.login:hover , .login:focus{
+    color: hsl(0,0%,8%);
+
 }
 .sign-up{
     padding: 10px 15px;
-    border: 2px solid black;
+    border: 2px solid hsl(0, 0%, 41%);
     border-radius: 5px;
     height: 20px;
     margin-top: auto;
     margin-bottom: auto;
+    cursor: pointer;
+}
+.sign-up:hover, .sign-up:focus{
+    border-color: hsl(0,0%,8%);
+    color: hsl(0,0%,8%);
 }
 .mobile-nav{
     display: none;
@@ -100,4 +121,10 @@ mat-list-item span{
     border: 1px solid hsl(0,0%,8%);
     padding: 10px 20px;
     border-radius: 0.7rem;
+}
+.mat-menu-item{
+    height: 35px;
+}
+.mat-menu-item img{
+    padding-inline-end: 10px;
 }

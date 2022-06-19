@@ -5,11 +5,11 @@
     <div class="nav-content">
         <div class="nav-btn">
             <ul>
-                <li>
+                <li [matMenuTriggerFor]="features">
                     Features
                     <img src="../../../assets/images/icon-arrow-down.svg" alt="">
                 </li>
-                <li>
+                <li [matMenuTriggerFor]="company">
                     Company
                     <img src="../../../assets/images/icon-arrow-down.svg" alt="">
                 </li>
@@ -94,3 +94,32 @@
         <router-outlet></router-outlet>
     </div>
 </mat-drawer-container>
+<mat-menu #features="matMenu" xPosition="before">
+    <button mat-menu-item>
+        <img src="../../../assets/images/icon-todo.svg" alt="">
+        Todo List
+    </button>
+    <button mat-menu-item>
+        <img src="../../../assets/images/icon-calendar.svg" alt="">
+        Calendar
+    </button>
+    <button mat-menu-item>
+        <img src="../../../assets/images/icon-reminders.svg" alt="">
+        Remainder
+    </button>
+    <button mat-menu-item>
+        <img src="../../../assets/images/icon-planning.svg" alt="">
+        Planning
+    </button>
+  </mat-menu>
+  <mat-menu #company="matMenu" xPosition="after">
+    <button mat-menu-item>
+        History
+    </button>
+    <button mat-menu-item>
+        Our Team
+    </button>
+    <button mat-menu-item>
+        Blog
+    </button>
+  </mat-menu>
