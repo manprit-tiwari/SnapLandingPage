@@ -1,0 +1,62 @@
+nav{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.logo{
+    width: max-content;
+    padding: 10px 20px;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-grow: 1;
+}
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+li{
+    text-align: center;
+    line-height: inherit;
+    padding: auto 10px;
+}
+.login-container{
+    display: flex;
+    gap: 20px;
+    margin-inline: 40px;
+    line-height: 25px;
+    
+}
+.login{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.sign-up{
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.mobile-nav{
+    display: none;
+}
+
+@media (max-width: 375px){
+    .mobile-nav{
+        display: block;
+        margin: 10px 20px;
+    }
+    ul, .login-container{
+        display: none;
+    }
+}
