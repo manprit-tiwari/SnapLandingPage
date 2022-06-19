@@ -25,8 +25,72 @@
             <div class="login">Login</div>
             <div class="sign-up">Sign Up</div>
         </div>
-        <div class="mobile-nav">
+        <button class="mobile-nav" mat-icon-button (click)="snav.toggle()">
             <img src="../../../assets/images/icon-menu.svg" alt="">
-        </div>
+        </button>
     </div>
 </nav>
+
+<mat-drawer-container>
+    <mat-drawer #snav position="end">
+        <div class="close-btn">
+            <button mat-icon-button (click)="snav.toggle()">
+                <img src="../../../assets/images/icon-close-menu.svg" alt="">
+            </button>
+        </div>
+        <div class="menu">
+            <mat-accordion>                    
+                <mat-expansion-panel  class="mat-elevation-z">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Features
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <button mat-flat-button disableRipple class="mob-nav-list" [routerLink]="['']">
+                        <img src="../../../assets/images/icon-todo.svg" alt="">
+                        <Span>Todo List</Span>
+                    </button>
+                    <button mat-flat-button disableRipple class="mob-nav-list" [routerLink]="['']">
+                        <img src="../../../assets/images/icon-calendar.svg" alt="">
+                        <Span>Calender</Span>
+                    </button>
+                    <button mat-flat-button disableRipple class="mob-nav-list" [routerLink]="['']">
+                        <img src="../../../assets/images/icon-reminders.svg" alt="">
+                        <Span>Remainder</Span>
+                    </button>
+                    <button mat-flat-button disableRipple class="mob-nav-list" [routerLink]="['']">
+                        <img src="../../../assets/images/icon-planning.svg" alt="">
+                        <Span>Planning</Span>
+                    </button>
+                </mat-expansion-panel>
+                <mat-expansion-panel  class="mat-elevation-z">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Company
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <button mat-flat-button disableRipple class="mob-nav-list" [routerLink]="['']">
+                        <Span>History</Span>
+                    </button>
+                    <button mat-flat-button disableRipple class="mob-nav-list" [routerLink]="['']">
+                        <Span>Our Team</Span>
+                    </button>
+                    <button mat-flat-button disableRipple class="mob-nav-list" [routerLink]="['']">
+                        <Span>Blog</Span>
+                    </button>
+                </mat-expansion-panel>
+                <mat-list>
+                    <mat-list-item mat-ripple><span>Careers</span></mat-list-item>
+                    <mat-list-item mat-ripple><span>About</span></mat-list-item>
+                </mat-list>
+                <mat-list class="mobile-login-container">
+                    <mat-list-item mat-ripple><span class="login">login</span></mat-list-item>
+                    <mat-list-item mat-ripple><span class="register">Register</span></mat-list-item>
+                </mat-list>
+            </mat-accordion>
+        </div>
+    </mat-drawer>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+</mat-drawer-container>

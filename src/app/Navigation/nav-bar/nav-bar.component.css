@@ -60,3 +60,44 @@ li{
         display: none;
     }
 }
+mat-drawer-container{
+    height: 100%;
+    color: hsl(0, 0%, 41%);
+}
+mat-drawer{
+    padding: 15px;
+    width: 225px;
+    position: fixed;
+    top: 0;
+}
+
+.close-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.mob-nav-list img{
+    padding-inline-end: 10px;
+}
+.mob-nav-list span{
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+}
+.mat-expansion-panel-header-title{
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+}
+mat-list-item span{
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+    /* border: 1px solid black; */
+    padding-inline-start: 10px;
+}
+.mobile-login-container .login, .mobile-login-container .register{
+    text-align: center;
+    width: 100%;
+}
+.mobile-login-container .register{
+    border: 1px solid hsl(0,0%,8%);
+    padding: 10px 20px;
+    border-radius: 0.7rem;
+}
