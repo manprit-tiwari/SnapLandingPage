@@ -1,29 +1,57 @@
-# SnapLandingPage
+# Frontend Mentor - Intro section with dropdown navigation solution
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
-<br>
-This watch the project running [live](https://snap-landign-page.netlify.app/).
+This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Development server
+## Table of contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
 
-## Code scaffolding
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Overview
 
-## Build
+### The challenge
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Users should be able to:
 
-## Running unit tests
+- View the relevant dropdown menus on desktop and mobile when interacting with the navigation links
+- View the optimal layout for the content depending on their device's screen size
+- See hover states for all interactive elements on the page
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Screenshot
 
-## Running end-to-end tests
+![](./screenshot.jpg)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+### Links
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- TypeScript
+- [Angular](https://angular.io/) version 14.0.2
+
+
+### Continued development
+
+If there is any changes in this project in future it will be automatically Updated on live Server Or you can see the code on GitHub so feel free to Check out those in case you want.
+
+### Useful resources
+
+- [Angular](https://angular.io/) - This helped me with varius Angular cli code and new features which i dont know with and i am looking forward to geting help from it in future.
+- [Angular Material](https://material.angular.io/) - This helps me with varius thing by writhing less code to get done more and more. And I really liked it very much and will recomend any  one to use it who works with Angular
